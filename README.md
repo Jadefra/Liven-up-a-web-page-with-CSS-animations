@@ -14,7 +14,7 @@ Colors
 ![Capture d’écran 2022-09-29 à 19 53 37](https://user-images.githubusercontent.com/91191428/193118303-629f7962-658a-46c2-b040-ce4179379b8e.png)
 
 Website
-
+https://user-images.githubusercontent.com/91191428/193141770-70bd3e8e-3d33-40f6-88d6-ee48356c8f59.mp4
 
 Goals
 ● Phase 1: Develop a site offering the menu of 4 major Parisian restaurants.
@@ -53,8 +53,6 @@ Buttons
 
 Home page
 ● When the application has no menus, a “loading spinner” is present. On this model, there is a preview. It appears for 1 to 3 seconds when landing on the home page, covers the entire screen, and uses CSS animations (no library). The design of this loader is not defined, but consistent with the charter website graphics.
-
-[file:///Volumes/TOSHIBA%20EXT/Developpement%20web/Module%203/P3_ALEMANY_CODE%20avec%20notes/index.html](url)
 
 Menu pages
 ● Upon arrival on the page, the dishes appear gradually with a slight time lag. They will appear one by one, or in groups "Starter, main course and dessert".
