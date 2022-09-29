@@ -1,6 +1,12 @@
 To make my terminal work
 "npm run sass"
 
+Phone format model (home page)
+https://user-images.githubusercontent.com/91191428/193141770-70bd3e8e-3d33-40f6-88d6-ee48356c8f59.mp4
+
+Phone size model (A La Française menu page)
+![Menu - À la française](https://user-images.githubusercontent.com/91191428/193142827-8a422fe0-55e3-4c88-9545-6e8500af6573.png)
+
 Proposal
 They want to offer their customers gourmet restaurant menus. Developed in New York at first, and now wishes to expand their concept in the capital of gastronomy: Paris.
 
