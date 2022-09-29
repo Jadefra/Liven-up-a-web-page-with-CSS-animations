@@ -1,4 +1,4 @@
-# To make my terminal work
+### To make my terminal work ###
 "npm run sass"
 
 ### Phone format model (home page) ###
