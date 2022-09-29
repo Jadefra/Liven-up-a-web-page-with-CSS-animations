@@ -1,10 +1,10 @@
 ### To make my terminal work ###
 "npm run sass"
 
-### Phone format model (home page) ###
+# Phone format model (home page) 
 ![Accueil](https://user-images.githubusercontent.com/91191428/193143037-75458cf5-cd0a-4cdc-82a2-96c8cac2457d.png)
 
-### Phone size model (A La Française menu page) ###
+# Phone size model (A La Française menu page) 
 ![Menu - À la française](https://user-images.githubusercontent.com/91191428/193142827-8a422fe0-55e3-4c88-9545-6e8500af6573.png)
 
 # Proposal
