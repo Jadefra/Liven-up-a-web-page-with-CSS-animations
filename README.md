@@ -83,3 +83,11 @@ Effects accessible by clicking or hovering are visible on the model. They use CS
 ● Upon arrival on the page, the dishes appear gradually with a slight time lag. They will appear one by one, or in groups "Starter, main course and dessert".
 
 ● The visitor can add the dishes he wants to his order by clicking on them. This brings up a small checkmark to the right of the dish. This tick will have to slide from right to left. For this first version, the effect can appear on hover on desktop instead of click. If the title of the dish is too long, it will have to be trimmed with suspension points.
+
+# Skills
+
+- Implement advanced graphical CSS effects
+- Ensure the graphic consistency of a website
+- Set up a Front-End environment
+- Set up a navigation structure for a website
+- Use a version management system for project monitoring and hosting
