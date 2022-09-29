@@ -7,7 +7,7 @@ Phone format model (home page)
 Phone size model (A La Française menu page)
 ![Menu - À la française](https://user-images.githubusercontent.com/91191428/193142827-8a422fe0-55e3-4c88-9545-6e8500af6573.png)
 
-Proposal
+# Proposal
 They want to offer their customers gourmet restaurant menus. Developed in New York at first, and now wishes to expand their concept in the capital of gastronomy: Paris.
 
 Positioning
