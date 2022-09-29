@@ -52,6 +52,8 @@ Buttons
 Home page
 ● When the application has no menus, a “loading spinner” is present. On this model, there is a preview. It appears for 1 to 3 seconds when landing on the home page, covers the entire screen, and uses CSS animations (no library). The design of this loader is not defined, but consistent with the charter website graphics.
 
+[file:///Volumes/TOSHIBA%20EXT/Developpement%20web/Module%203/P3_ALEMANY_CODE%20avec%20notes/index.html](url)
+
 Menu pages
 ● Upon arrival on the page, the dishes appear gradually with a slight time lag. They will appear one by one, or in groups "Starter, main course and dessert".
 ● The visitor can add the dishes he wants to his order by clicking on them. This brings up a small checkmark to the right of the dish. This tick will have to slide from right to left. For this first version, the effect can appear on hover on desktop instead of click. If the title of the dish is too long, it will have to be trimmed with suspension points.
