@@ -1,0 +1,8 @@
+// Appearance of the menu presentation
+
+@for $i from 1 through 8 { 
+    .offset-#{$i}{
+        animation-delay: $i * 0.1s;
+    }
+  }
+

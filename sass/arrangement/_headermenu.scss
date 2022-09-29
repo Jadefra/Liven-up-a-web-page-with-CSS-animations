@@ -1,0 +1,22 @@
+.head__title {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 65px;
+
+    img {
+        height: 27px; 
+    }
+
+    .backtohome {
+        position: absolute;
+        left: 18px;
+        top: 28px;
+    }
+}
+
+.logoOMF {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: -28px;
+}

@@ -1,0 +1,173 @@
+.images-folder {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover;
+}
+
+.title-header {
+    display: flex;
+    align-items: center; 
+    font-weight: normal;
+    justify-content: space-between; 
+    padding: 0 18px; 
+    svg {
+        margin-right: 0;
+        margin-top: 3px;
+    }
+        h2 {
+            font-family: $font-title;
+            margin-top: 32px;
+            max-width: 100%;
+            max-width: calc(100% - 30px);
+
+            @media(max-width: 280px) {
+                font-size: 22px;
+            }
+        }
+}
+
+//menu 
+
+.restaurant-part {
+    position: relative;
+    top: -20px;
+    background-color: $white;
+    border-radius: 25px 25px 0 0; 
+    padding-bottom: 30px;
+
+    @media screen and (min-width: 992px) {
+        margin: -8px 48px 0px; 
+    }
+}
+
+.different-dishes {
+    display: grid;
+
+    @media (min-width: 992px) {
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 16px;
+        margin: 0 48px;
+    }
+}
+
+//Starter, dish, dessert 
+
+.menus {
+    overflow: hidden;
+    max-width: 100%;
+    padding: 0px 11px;
+
+    &__subtitle {
+        position: relative;
+        font-family: $font-global;
+        font-weight: normal;
+        padding-bottom: 5px;
+        text-transform: uppercase; 
+        &::after { /*surlignage bleu*/
+            position: absolute;
+            background-color: $tertiary;
+            bottom: 0;
+            content: "";
+            height: 3px; 
+            width: 28px;
+            left: 0;
+        }
+    }
+}
+
+//Subpart
+
+@keyframes scale {
+    0% {
+    transform: scale(0); 
+    }
+    100% {
+    transform: scale(1); 
+    }
+}
+    
+.included-menu {
+    display: flex;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 3px 4px 9px grey;
+    margin: 18px 0px;
+    padding: 11px;
+    max-width: 100%; 
+    overflow: hidden; 
+    cursor: pointer;
+    animation: scale .4s;
+    animation-timing-function: ease-in-out; 
+    animation-fill-mode: forwards; 
+
+    &__header {
+        flex: 1;
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        white-space: nowrap; 
+    }
+
+    &__name {
+        flex: 1;
+        font-family: $font-global;
+        font-size: 17px;
+        font-weight: bold; 
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space: nowrap; 
+        margin-bottom: 5px;
+    }
+
+    &__definition {
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 100;
+    }
+
+    &__rate {
+        display: flex;
+        font-family: $font-global;
+        align-items: flex-end;
+        justify-content: flex-end;
+        font-weight: 600; 
+        padding-left: 18px;
+    }
+
+    &__approve {
+        display: flex;
+        background-color: $tertiary;
+        font-size: 20px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: -15px -71px -15px 15px;
+        width: 60px;
+        transition-duration: .4s;
+    }
+
+    &:hover &__approve {
+        margin-right: -12px;
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 90px;
+        height: 23px; 
+        width: 23px;
+        transform: rotate(360deg);
+        transition-duration: .5s;
+    }
+
+    &:hover &__icon {
+        transform: rotate(0);
+    }
+
+    &__picto {
+        color: $tertiary;
+    }
+}

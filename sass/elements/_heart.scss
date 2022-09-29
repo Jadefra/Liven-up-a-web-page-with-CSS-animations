@@ -1,0 +1,34 @@
+.littleheart {
+    position: relative;
+    top: -10px;
+
+    &:hover{
+        svg.normal {
+            opacity: 0;
+        }
+
+        svg.hover {
+            opacity: 1;
+        }
+    }
+    svg{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 24px;
+        width: 24px;
+        margin-right: 15px;
+        transition: opacity 0.5s;
+    }
+
+    svg.normal {
+        cursor: pointer;
+        stroke: $grey;
+    }
+
+    svg.hover {
+        fill: url(#heartGradient);
+        stroke: none;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,78 @@
+.section-restaurants {
+    background-color: $white;
+    padding: 9px 0px 4px 0px; 
+
+    @media screen and (min-width: 600px) {
+    padding: 12px 22px;
+    }
+    @media screen and (min-width: 1024px) {
+    padding: 12px 48px; 
+    }
+}
+
+.section-restau {
+    @media (min-width: 992px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    background-color: $white;
+    padding-bottom: 28px;
+
+    .restaurant-menu {
+        background-color: white;
+        border-radius: 18px;
+        box-shadow: 3px 4px 9px grey;
+        margin: 8px;
+        position: relative;
+        overflow: hidden; 
+
+        img {
+            height: 158px; 
+            width: 100%;
+            object-fit: cover; 
+        }
+
+        .details {
+            display: flex;
+            flex-wrap: wrap; 
+            align-items: center; 
+            padding: 6px; 
+        }
+
+        .menu-details {
+            flex: 1;
+            width: 146px;
+            margin: 4px 0px 4px 9px; 
+
+            h4 {
+                margin: 0; 
+            }
+        }
+
+        .restaurant-name {
+            font-family: $font-global;
+            font-weight: bolder; 
+        }
+
+        .restaurant-place {
+            font-family: $font-global-secondary;
+            font-weight: lighter;
+        }
+
+        .badge-new {
+            position: absolute;
+            background-color: $frostygreen;
+            color: $green;
+            font-size: 14px;
+            top: 11px;
+            right: 11px;
+            padding: 8px;
+            font-family: 'Roboto','sans-serif';
+            font-weight: bold;
+            border-radius: 3px;
+        }
+
+    }
+
+}

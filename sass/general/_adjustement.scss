@@ -1,0 +1,26 @@
+html{
+    line-height: 1;
+}
+
+body{
+    margin: 0
+}
+
+main{
+    display: block;
+}
+
+h1{
+    font-size: 32px;
+    margin: 11px 0; 
+}
+
+a {
+    background-color: transparent; 
+}
+
+svg:first-of-type { 
+    width: 0; 
+    height: 0; 
+    position: absolute;
+}

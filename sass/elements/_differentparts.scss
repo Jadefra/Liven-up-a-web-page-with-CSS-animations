@@ -1,0 +1,63 @@
+.section-functioning {
+    @media screen and (min-width: 768px) {
+        padding: 12px 22px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding: 12px 48px;
+    }
+}
+
+.section-functions {
+    @media screen and (min-width: 768px) {
+        display: grid; 
+        grid-template-columns: repeat(3,1fr);
+        margin-bottom: 18px;
+    }
+
+    .choose {
+        background-color: $white;
+        border-radius: 22px;
+        box-shadow: 3px 4px 9px grey;
+        margin: 18px 18px; 
+        font-family: $font-global;
+
+        &__preference {
+            display: flex;
+            flex-direction: row; 
+            justify-content: flex-start; 
+            height: 68px; 
+            align-items: center; 
+
+            .number {
+                background-color: $primary;
+                color: white;
+                font-size: 16px;
+                border-radius: 48%;
+                padding: 6px 9px;
+                margin: 1px 9px 1px -8px; 
+            }
+
+            .span {
+                font-family: $font-global;
+                font-size: 18px;
+                margin-left: 12px;
+            }
+
+            .icon {
+                width: 48px;
+                font-size: 18px;
+                color: $grey;
+                text-align: center; 
+            }
+        }
+    &:hover {
+        background-color: $nymphpink;
+        border-radius: 13px;
+
+        .icon {
+            color: $purplelight;
+        }
+    }
+    }
+}

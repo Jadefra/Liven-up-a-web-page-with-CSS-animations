@@ -1,0 +1,38 @@
+footer {
+    @media screen and (min-width: 600px) {
+        padding: 11px 22px;
+    } 
+
+    @media screen and (min-width: 1024px) {
+        padding: 11px 48px;
+    }
+
+    color: $white;
+    background-color: $darkgray;
+    padding: 10px 0px 22px 12px;
+
+    h3 {
+        font-family: $font-title;
+        font-weight: normal;
+        margin: 10px
+    }
+
+    li {
+        list-style: none;
+        font-family: $font-global;
+        margin: 10px;
+    }
+
+    i {
+        font-size: 14px;
+        margin-right: 9px;
+    }
+
+    a {
+        color: $white;
+    }
+
+    ul {
+        padding: 11px 0px;
+    }
+}
