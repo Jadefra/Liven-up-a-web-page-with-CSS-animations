@@ -1,6 +1,9 @@
 ### To make my terminal work ###
 "npm run sass"
 
+# Website
+https://user-images.githubusercontent.com/91191428/193150145-872538db-37f1-4487-b292-9139e9268914.mp4
+
 # Phone format model (home page) 
 ![Accueil](https://user-images.githubusercontent.com/91191428/193143037-75458cf5-cd0a-4cdc-82a2-96c8cac2457d.png)
 
@@ -18,9 +21,6 @@ Middle and upper classes, connected and often in a hurry, wishing to taste quali
 
 # Colors
 ![Capture d’écran 2022-09-29 à 19 53 37](https://user-images.githubusercontent.com/91191428/193118303-629f7962-658a-46c2-b040-ce4179379b8e.png)
-
-# Website
-https://user-images.githubusercontent.com/91191428/193150145-872538db-37f1-4487-b292-9139e9268914.mp4
 
 # Goals
 
