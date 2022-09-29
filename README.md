@@ -34,32 +34,33 @@ On tablet and desktop, the site adapts, but these supports are not a priority, t
 ● The site is fully compatible with the latest desktop versions of Chrome and Firefox.
 
 # Page content
-Home page (x1)
+
+### Home page (x1) ###
 ● Display of restaurant locations. Eventually it will be possible to choose location to find restaurants near a certain location.
 ● A short presentation of the company.
 ● A section containing the 4 menus in card form. By clicking on the map, the user is redirected to the menu page.
 
-# Menu Pages (x4)
+### Menu Pages (x4) ###
 ● 4 pages each containing the menu of a restaurant.
 
-# Footer
+### Footer ###
 ● The footer is identical on all pages.
 ● When clicking on “Contact”, a forwarding to an e-mail address is made.
 
-# Header
+### Header ###
 ● The header is present on all pages.
 ● On the home page, it contains the site logo.
 ● On the menu pages, it also contains a button to return to the home page
 
 Effects accessible by clicking or hovering are visible on the model. They use CSS animations or transitions, no JavaScript or library.
 
-# Buttons
+### Buttons ###
 ● On hover, the background color of the main buttons lightens slightly. The drop shadow is also more visible.
 ● Eventually, visitors will be able to save their favorite menus. For that, a heart-shaped "Like" button is present on the model. On click, it will have to fill gradually. For this first version, the effect may appear at hover on desktop instead of click.
 
-# Home page
+### Home page ###
 ● When the application has no menus, a “loading spinner” is present. On this model, there is a preview. It appears for 1 to 3 seconds when landing on the home page, covers the entire screen, and uses CSS animations (no library). The design of this loader is not defined, but consistent with the charter website graphics.
 
-# Menu pages
+### Menu pages ###
 ● Upon arrival on the page, the dishes appear gradually with a slight time lag. They will appear one by one, or in groups "Starter, main course and dessert".
 ● The visitor can add the dishes he wants to his order by clicking on them. This brings up a small checkmark to the right of the dish. This tick will have to slide from right to left. For this first version, the effect can appear on hover on desktop instead of click. If the title of the dish is too long, it will have to be trimmed with suspension points.
