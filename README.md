@@ -42,27 +42,27 @@ On tablet and desktop, the site adapts, but these supports are not a priority, t
 
 ### Home page (x1) ###
 
-● Display of restaurant locations. Eventually it will be possible to choose location to find restaurants near a certain location.
+● Display of restaurant locations. Eventually it will be possible to choose location to find restaurants near a certain location
 
-● A short presentation of the company.
+● A short presentation of the company
 
-● A section containing the 4 menus in card form. By clicking on the map, the user is redirected to the menu page.
+● A section containing the 4 menus in card form. By clicking on the map, the user is redirected to the menu page
 
 ### Menu Pages (x4) ###
 
-● 4 pages each containing the menu of a restaurant.
+● 4 pages each containing the menu of a restaurant
 
 ### Footer ###
 
-● The footer is identical on all pages.
+● The footer is identical on all pages
 
-● When clicking on “Contact”, a forwarding to an e-mail address is made.
+● When clicking on “Contact”, a forwarding to an e-mail address is made
 
 ### Header ###
 
-● The header is present on all pages.
+● The header is present on all pages
 
-● On the home page, it contains the site logo.
+● On the home page, it contains the site logo
 
 ● On the menu pages, it also contains a button to return to the home page
 
